@@ -53,6 +53,7 @@ class PaddingTestRoute extends StatelessWidget {
                     style: TextStyle(color: Colors.white),
                   ),
                 )),
+            const SizedBox(height:32),
             DecoratedBox(
                 decoration: BoxDecoration(
                     gradient: LinearGradient(
@@ -79,3 +80,4 @@ class PaddingTestRoute extends StatelessWidget {
     );
   }
 }
+
